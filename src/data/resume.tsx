@@ -12,16 +12,16 @@ import { TailwindCSS } from "@/components/ui/svgs/tailwindcss";
 import { Git } from "@/components/ui/svgs/git";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Shouqat",
+  initials: "MSA",
+  url: "https://mohammadshouqatazeez.vercel.app",
+  location: "Andhra Pradesh, India",
+  locationLink: "https://www.google.com/maps/place/andhra+pradesh",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Full Stack Developer building scalable apps with React, Next.js, FastAPI, and PostgreSQL.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "Recent Computer Science graduate from [Kallam Haranadhareddy Institute of Technology](/#education). I build full-stack web applications with a focus on clean architecture, secure APIs, and AI integration. Currently looking for opportunities to grow as a developer.",
+  avatarUrl: "/me.jpg",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
@@ -155,36 +155,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Kallam Haranadhareddy Institute of Technology",
+      href: "https://khitguntur.ac.in/",
+      degree: "Bachelor of Technology – Computer Science Engineering",
+      logoUrl: "/khit.png",
+      start: "2022",
+      end: "2026",
     },
   ],
   projects: [

@@ -16,7 +16,7 @@ import { Supabase } from "@/components/ui/svgs/supabase";
 import { Firebase } from "@/components/ui/svgs/firebase";
 
 export const DATA = {
-  name: "Shouqat",
+  name: "Mohammad Shouqat Azeez",
   initials: "MSA",
   url: "https://mohammadshouqatazeez.vercel.app",
   location: "Andhra Pradesh, India",

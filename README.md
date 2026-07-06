@@ -1,47 +1,43 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Mohammad Shouqat Azeez — Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+My personal developer portfolio built with Next.js, React, Tailwind CSS, Shadcn UI, and Magic UI.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+🔗 **Live:** [mohammadshouqatazeez.vercel.app](https://mohammadshouqatazeez.vercel.app)
 
-# Features
+## About
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+Full Stack Developer building scalable apps with React, Next.js, FastAPI, and PostgreSQL. Recent Computer Science graduate focused on clean architecture, secure APIs, and AI integration.
 
-# Getting Started Locally
+## Tech Stack
 
-1. Clone this repository to your local machine:
+- **Framework:** Next.js 16, React 19
+- **Styling:** Tailwind CSS, Shadcn UI, Magic UI
+- **Language:** TypeScript
+- **Deployment:** Vercel
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+## Features
 
-2. Move to the cloned directory
+- Responsive design with dark/light theme
+- Animated UI components (blur fade, flickering grid, dock)
+- Project showcase with live links and source code
+- Skills section with custom SVG icons
+- Contact section with email and LinkedIn
 
-   ```bash
-   cd portfolio
-   ```
+## Projects Showcased
 
-3. Install dependencies:
+- **HireTrack** — AI-powered job application tracker (React, FastAPI, PostgreSQL, Google Gemini AI)
+- **InvoTrack** — Invoice management system with PDF generation and AI reminders (Next.js, Prisma, PostgreSQL)
+- **ReceiptPro** — Receipt management platform with image uploads (React, Supabase, Tailwind CSS)
 
-   ```bash
-   pnpm install
-   ```
+## Getting Started
 
-4. Start the local Server:
+```bash
+npm install
+npm run dev
+```
 
-   ```bash
-   pnpm dev
-   ```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+## License
 
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+MIT

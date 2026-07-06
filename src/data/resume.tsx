@@ -71,20 +71,17 @@ export const DATA = {
     },
   },
 
-  work: [
-    // Uncomment and add work experience here when ready
-    // {
-    //   company: "Company Name",
-    //   href: "https://company.com",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Software Engineer",
-    //   logoUrl: "/company-logo.png",
-    //   start: "Month Year",
-    //   end: "Month Year",
-    //   description: "What you did there.",
-    // },
-  ],
+  work: [] as Array<{
+    company: string;
+    href: string;
+    badges: string[];
+    location: string;
+    title: string;
+    logoUrl: string;
+    start: string;
+    end: string;
+    description: string;
+  }>,
   education: [
     {
       school: "Kallam Haranadhareddy Institute of Technology",
@@ -188,7 +185,7 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [] as {
+  hackathons: [] as Array<{
     title: string;
     dates: string;
     location: string;
@@ -197,6 +194,6 @@ export const DATA = {
     mlh?: string;
     win?: string;
     icon?: string;
-    links: readonly { title: string; icon: React.ReactNode; href: string }[];
-  }[],
-} as const;
+    links: { title: string; icon: React.ReactNode; href: string }[];
+  }>,
+};

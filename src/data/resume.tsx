@@ -25,7 +25,7 @@ export const DATA = {
     "Full Stack Developer building scalable apps with React, Next.js, FastAPI, and PostgreSQL.",
   summary:
     "Recent Computer Science graduate from [Kallam Haranadhareddy Institute of Technology](/#education). I build full-stack web applications with a focus on clean architecture, secure APIs, and AI integration. Currently looking for opportunities to grow as a developer.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.webp",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
@@ -88,7 +88,7 @@ export const DATA = {
       school: "Kallam Haranadhareddy Institute of Technology",
       href: "https://khitguntur.ac.in/",
       degree: "Bachelor of Technology – Computer Science Engineering",
-      logoUrl: "/khit.png",
+      logoUrl: "/khit.webp",
       start: "2022",
       end: "2026",
     },
@@ -122,7 +122,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/hiretrack.png",
+      image: "/hiretrack.webp",
       video: "",
     },
     {
@@ -154,7 +154,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/invotrack.png",
+      image: "/invotrack.webp",
       video: "",
     },
     {
@@ -182,7 +182,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/receiptpro.png",
+      image: "/receiptpro.webp",
       video: "",
     },
   ],

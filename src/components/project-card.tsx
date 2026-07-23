@@ -19,7 +19,7 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
     <img
       src={src}
       alt={alt}
-      className="w-full h-48 object-cover object-top"
+      className="w-full h-48 object-cover object-center"
       onError={() => setImageError(true)}
     />
   );
@@ -75,7 +75,7 @@ export function ProjectCard({
               loop
               muted
               playsInline
-              className="w-full h-48 object-cover object-top"
+              className="w-full h-48 object-cover object-center"
             />
           ) : image ? (
             <ProjectImage src={image} alt={title} />

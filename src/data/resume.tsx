@@ -158,6 +158,32 @@ export const DATA = {
       video: "",
     },
     {
+      title: "NOVA",
+      href: "https://nova-team-productivity.vercel.app/",
+      dates: "Aug 2026 - Sep 2026",
+      active: true,
+      description:
+        "Full-stack team productivity platform with project management, task assignment, Kanban/List views, team collaboration, and progress tracking, secured with PostgreSQL Row Level Security and owner/member access controls.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Server Actions",
+        "Zod",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/shouqatazeez/nova-project-management",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/nova.webp",
+      video: "",
+    },
+    {
       title: "JobHive",
       href: "https://jobhive-gamma.vercel.app",
       dates: "Jun 2026 - Jul 2026",
